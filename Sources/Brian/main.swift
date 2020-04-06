@@ -24,7 +24,7 @@ struct Brian: Website {
     var imagePath: Path? { nil }
 }
 
-// This will generate your website using the built-in Foundation theme:
+// This will generate your website using my brian theme:
 try Brian().publish(using: [
     .installPlugin(.splash(withClassPrefix: "")),
     .addMarkdownFiles(),
